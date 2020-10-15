@@ -5,10 +5,8 @@
  */
 
 function addItemsPosition(strArray) {
-
+  return strArray.map((item,i) => `${i+1}. ${item}`);
 }
-
-
 // Exemples d'appel pour vérifier
 // le bon fonctionnement de ton code
 // Ne pas modifier

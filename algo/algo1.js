@@ -11,7 +11,7 @@
 */
 
 function rectPerimeter(width, height) {
-  // Ton code ici
+  return width*2 + height*2;
 }
 
 

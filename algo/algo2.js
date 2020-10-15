@@ -3,7 +3,7 @@
 */
 
 function isEven(num) {
-  // ton code ici
+  return !(num % 2);
 }
 
 
